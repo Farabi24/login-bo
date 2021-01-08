@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: #181B1B;
+}
+.login-box{
+    width: 280px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: white;
+}
+h1{
+    color: white;
+    margin-bottom: 50px;
+    padding-bottom: 15px;
+    width: 90px;
+    border-bottom: lightgreen 4px solid;
+}
+.textb{
+    width: 100%;
+    padding: 5px;
+    border-bottom: lightgreen 1px solid;
+}
+.login-box input[type="text"],[type="password"]{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 80%;
+    margin: 0 10px;
+}
+
+.btn input[type="submit"]{
+    width: 100%;
+    background: none;
+    border: solid 2px lightgreen;
+    color: white;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
